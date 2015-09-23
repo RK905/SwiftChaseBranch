@@ -1,0 +1,6 @@
+framework module Pods_SwiftChaseBranch {
+  umbrella header "Pods-SwiftChaseBranch-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3150E071BB3096A0054A715 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3150E061BB3096A0054A715 /* MaterialButton.swift */; settings = {ASSET_TAGS = (); }; };
+		A3150E091BB309A20054A715 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3150E081BB309A20054A715 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		A3150E0B1BB30AB20054A715 /* ChaseATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3150E0A1BB30AB20054A715 /* ChaseATM.swift */; settings = {ASSET_TAGS = (); }; };
 		A32D4FDF1BB306DA00C4C198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D4FDE1BB306DA00C4C198 /* AppDelegate.swift */; };
 		A32D4FE11BB306DA00C4C198 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D4FE01BB306DA00C4C198 /* ViewController.swift */; };
 		A32D4FE41BB306DA00C4C198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32D4FE21BB306DA00C4C198 /* Main.storyboard */; };
 		A32D4FE61BB306DA00C4C198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32D4FE51BB306DA00C4C198 /* Assets.xcassets */; };
 		A32D4FE91BB306DA00C4C198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32D4FE71BB306DA00C4C198 /* LaunchScreen.storyboard */; };
+		EA1E0E4B15BCD430EFBBE013 /* Pods_SwiftChaseBranch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA021A6BE8439BFA06F965BB /* Pods_SwiftChaseBranch.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3569DEDCA1C9C1CAE1ED7BCB /* Pods-SwiftChaseBranch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftChaseBranch.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftChaseBranch/Pods-SwiftChaseBranch.release.xcconfig"; sourceTree = "<group>"; };
+		846A8FC526656422B21525C2 /* Pods-SwiftChaseBranch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftChaseBranch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftChaseBranch/Pods-SwiftChaseBranch.debug.xcconfig"; sourceTree = "<group>"; };
+		A3150E061BB3096A0054A715 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		A3150E081BB309A20054A715 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A3150E0A1BB30AB20054A715 /* ChaseATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseATM.swift; sourceTree = "<group>"; };
 		A32D4FDB1BB306DA00C4C198 /* SwiftChaseBranch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftChaseBranch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32D4FDE1BB306DA00C4C198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A32D4FE01BB306DA00C4C198 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		A32D4FE51BB306DA00C4C198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A32D4FE81BB306DA00C4C198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A32D4FEA1BB306DA00C4C198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA021A6BE8439BFA06F965BB /* Pods_SwiftChaseBranch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftChaseBranch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1E0E4B15BCD430EFBBE013 /* Pods_SwiftChaseBranch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2573BF5BB1A45D7637644416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA021A6BE8439BFA06F965BB /* Pods_SwiftChaseBranch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		421A592540E94B6B16707E11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				846A8FC526656422B21525C2 /* Pods-SwiftChaseBranch.debug.xcconfig */,
+				3569DEDCA1C9C1CAE1ED7BCB /* Pods-SwiftChaseBranch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A32D4FD21BB306DA00C4C198 = {
 			isa = PBXGroup;
 			children = (
 				A32D4FDD1BB306DA00C4C198 /* SwiftChaseBranch */,
 				A32D4FDC1BB306DA00C4C198 /* Products */,
+				421A592540E94B6B16707E11 /* Pods */,
+				2573BF5BB1A45D7637644416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,49 @@
 		A32D4FDD1BB306DA00C4C198 /* SwiftChaseBranch */ = {
 			isa = PBXGroup;
 			children = (
-				A32D4FDE1BB306DA00C4C198 /* AppDelegate.swift */,
-				A32D4FE01BB306DA00C4C198 /* ViewController.swift */,
-				A32D4FE21BB306DA00C4C198 /* Main.storyboard */,
+				A32D4FF31BB306FC00C4C198 /* Utils */,
+				A32D4FF21BB306EE00C4C198 /* Controller */,
+				A32D4FF11BB306E900C4C198 /* View */,
+				A32D4FF01BB306E300C4C198 /* Model */,
 				A32D4FE51BB306DA00C4C198 /* Assets.xcassets */,
-				A32D4FE71BB306DA00C4C198 /* LaunchScreen.storyboard */,
 				A32D4FEA1BB306DA00C4C198 /* Info.plist */,
 			);
 			path = SwiftChaseBranch;
+			sourceTree = "<group>";
+		};
+		A32D4FF01BB306E300C4C198 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3150E0A1BB30AB20054A715 /* ChaseATM.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A32D4FF11BB306E900C4C198 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A32D4FE21BB306DA00C4C198 /* Main.storyboard */,
+				A32D4FE71BB306DA00C4C198 /* LaunchScreen.storyboard */,
+				A3150E061BB3096A0054A715 /* MaterialButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A32D4FF21BB306EE00C4C198 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A32D4FE01BB306DA00C4C198 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A32D4FF31BB306FC00C4C198 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A32D4FDE1BB306DA00C4C198 /* AppDelegate.swift */,
+				A3150E081BB309A20054A715 /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A32D4FED1BB306DA00C4C198 /* Build configuration list for PBXNativeTarget "SwiftChaseBranch" */;
 			buildPhases = (
+				4B9948CD455FC5B9978F6078 /* Check Pods Manifest.lock */,
 				A32D4FD71BB306DA00C4C198 /* Sources */,
 				A32D4FD81BB306DA00C4C198 /* Frameworks */,
 				A32D4FD91BB306DA00C4C198 /* Resources */,
+				74418F121B465CAB9C510062 /* Embed Pods Frameworks */,
+				7E9A1AEE5A7748DE0C2CADFC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +197,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B9948CD455FC5B9978F6078 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74418F121B465CAB9C510062 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftChaseBranch/Pods-SwiftChaseBranch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9A1AEE5A7748DE0C2CADFC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftChaseBranch/Pods-SwiftChaseBranch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A32D4FD71BB306DA00C4C198 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -136,6 +252,9 @@
 			files = (
 				A32D4FE11BB306DA00C4C198 /* ViewController.swift in Sources */,
 				A32D4FDF1BB306DA00C4C198 /* AppDelegate.swift in Sources */,
+				A3150E0B1BB30AB20054A715 /* ChaseATM.swift in Sources */,
+				A3150E071BB3096A0054A715 /* MaterialButton.swift in Sources */,
+				A3150E091BB309A20054A715 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +365,7 @@
 		};
 		A32D4FEE1BB306DA00C4C198 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846A8FC526656422B21525C2 /* Pods-SwiftChaseBranch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftChaseBranch/Info.plist;
@@ -257,6 +377,7 @@
 		};
 		A32D4FEF1BB306DA00C4C198 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3569DEDCA1C9C1CAE1ED7BCB /* Pods-SwiftChaseBranch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftChaseBranch/Info.plist;
@@ -285,6 +406,7 @@
 				A32D4FEF1BB306DA00C4C198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
